@@ -14,6 +14,11 @@ CREATE TABLE dealerships (
   phone VARCHAR(12)
 );
 
+INSERT INTO dealerships (name, address, phone) VALUES
+('Prestige Motors', '123 Main Street, Charlotte, NC', '704-555-0100'),
+('Elite Auto Sales', '456 Trade Street, Charlotte, NC', '704-555-0101'),
+('Premier Vehicles', '789 Tryon Street, Charlotte, NC', '704-555-0102');
+
 -- CREATE TABLE table_name ( 
 -- column1 datatype, 
 -- column2 datatype, 
